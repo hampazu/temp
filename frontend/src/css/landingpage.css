@@ -1,0 +1,85 @@
+.landing-screen {
+  overflow: hidden;
+}
+
+.landing-screen-bg {
+  position: relative;
+  /* top: -40px; */
+  height: 90.5vh;
+  width: 100vw;
+  background-color: #f1eef5;
+}
+
+.landing-screen-img {
+  position: absolute;
+  top: 14%;
+  left: 15.5%;
+  background-image: url("../../public/bgs/landingpage1.png");
+  height: 37vw;
+  width: 65vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-screen-text-position1 {
+  position: absolute;
+  top: 110px;
+  right: 35px;
+  width: 320px;
+  background-color: #9570b8;
+  padding: 10px;
+}
+
+.landing-screen-text-position2 {
+  position: absolute;
+  top: 320px;
+  right: 35px;
+  width: 320px;
+  background-color: #9570b8;
+  padding: 10px;
+}
+
+.landing-screen-text-position3 {
+  position: absolute;
+  top: 510px;
+  right: 35px;
+  width: 320px;
+  background-color: #9570b8;
+  padding: 10px;
+}
+
+.landing-screen-text-position4 {
+  position: absolute;
+  top: 110px;
+  left: 280px;
+  width: 240px;
+  padding: 16px;
+  background-color: #9570b8;
+}
+
+.landing-screen-heading {
+  font-size: 40px;
+  color: #f3eff7;
+}
+
+.landing-screen-description {
+  padding: 4px;
+  color: #f3eff7;
+  padding: 4px;
+}
+
+.landing-screen-link {
+  color: #f3eff7;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 12px;
+  margin-top: 50px;
+  padding: 4px;
+}
+
+.landing-screen-link:hover {
+  color: #f3eff7;
+
+  cursor: pointer;
+  text-decoration: underline;
+}

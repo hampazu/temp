@@ -1,0 +1,229 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  
+  /* overflow: hidden; */
+  /* background-color: #f1f1f1; */
+  /* background-position: center center; */
+}
+
+
+/*Login Form  */
+
+.LoginFormPosition {
+  position: absolute;
+  left: 30vw;
+  top: 18vh;
+}
+
+.LoginForm {
+  height: 55vh;
+  width: 50vw;
+  overflow-x: nowrap;
+  background: #9570b8;
+}
+
+.LoginFormHeading {
+  margin: 30px;
+  color: #f1f1f1;
+}
+
+.LoginFormComponentsPosition {
+  position: relative;
+  left: 7vw;
+}
+
+.InputTextAreaPosition {
+  margin: 10px;
+}
+
+.InputTextArea {
+  width: 70%;
+  height: 7vh;
+}
+
+.LoginLabel {
+  display: block;
+  margin: 2px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.BtnPosition {
+  position: relative;
+  left: 29vw;
+}
+
+.RegisterBtn {
+  position: relative;
+  left: 18px;
+  text-decoration: none;
+}
+
+.RegisterBtn:hover {
+  text-decoration: underline;
+}
+
+.RegisterForm {
+  height: 75vh;
+  width: 50vw;
+  overflow-x: nowrap;
+  background-color: #9570b8;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.PracticeOptionLayout {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.PracticeOption {
+  padding: 10px;
+  background-color: #189AB4;
+  border-left: 2px solid white;
+  color: white;
+}
+
+.PracticeOption:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Mobile menu */
+.dashboard-menu {
+  position: relative;
+  top: 10px;
+  left: 180px;
+  margin-bottom: 10px;
+}
+
+.dashboard-menu-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 70px;
+  padding-top: 10px;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: #189AB4;
+}
+
+.dashboard-menu-option:hover {
+  cursor: pointer;
+}
+
+.dashboard-menu-option-text {
+  position: absolute;
+  text-decoration: none;
+}
+
+.dashboard-menu-option-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: white;
+  transform: scaleX(0);
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center;
+}
+
+.dashboard-menu-option-text:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.dashboard-activity {
+  position: relative;
+  left: 180px;
+  right: 5vw;
+  top: 10px;
+}
+
+.recording-list-box {
+  /* display: flex; */
+  position: relative;
+  left: 11.5vw;
+  margin-bottom: 40px;
+  overflow: auto;
+  width: 90%;
+  white-space: nowrap;
+}
+
+.recording-list-element {
+  background: #189AB4;
+  margin: 10px;
+  width: 10vw;
+  height: 5vw;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.recording-list-text {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.recording-list-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #f1f1f1;
+  transform: scaleX(0);
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center;
+}
+
+.recording-list-text:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.recording-list-icon {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 32px;
+  height: 32px;
+  border: 2px solid;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+.recording-list-icon::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 0;
+  height: 12px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 13px solid;
+  top: 7px;
+  left: 10px;
+}

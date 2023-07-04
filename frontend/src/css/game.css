@@ -1,0 +1,27 @@
+.gamePosition {
+  position: absolute;
+  left: 38vw;
+  top: 10vw;
+}
+
+.gameHeading {
+    padding: 8px;
+    color: #866B9F;    ;
+}
+
+.gameOption {
+  /* top: 20vw; */
+  width: 200px;
+  height: 80px;
+  margin: 2px;
+  background-color: #9570b8;
+  color: #f3eff7;
+  font-size: large;
+  font-weight: bold;
+  border: #bba8cd;
+}
+
+.gameOption:hover {
+  background-color: #866b9f;
+  border: 2px solid #f3eff7;
+}
